@@ -1,0 +1,32 @@
+body{
+    color: white;
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*ordenação do menu do topo da pagina*/
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+}
+/*cores e estilos do texto do cabeçalho*/
+a {
+    color:white;
+}
+/*dimensões e estilos da imagem*/
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150%;
+    border: 5px;
+}
+.centralizar{
+    text-align: center;
+}
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
